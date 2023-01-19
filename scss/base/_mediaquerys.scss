@@ -1,0 +1,509 @@
+/*---MEDIA QUERY---*/
+@media screen and (max-width: 1075px) {
+    .contacto div .message div .form-control {
+        height: 100px;
+    }
+
+    .galeria-container .imagen1{
+        width: 320px;
+        height: 400px;
+    }
+
+    .galeria-container .imagen2{
+        width:320px;
+        height: 400px;
+    }
+
+    .galeria-container .imagen3{
+        width: 320px;
+        height: 400px;
+    }
+
+    .galeria-container .imagen4{
+        width: 600px;
+        height: 400px;
+    }
+
+    .galeria-container .imagen5{
+        width: 320px;
+        height: 400px;
+    }
+
+    .galeria-container .imagen6{
+        width: 320px;
+        height: 400px;
+    }
+
+    .galeria-container .imagen7{
+        width: 600px;
+        height: 400px;
+    }
+
+    .videos-container iframe{
+        width: 450px;
+        height: 350px;
+    }
+}  
+
+@media screen and (max-width:1025px){
+    .galeria-container .imagen1{
+        width: 300px;
+        height: 350px;
+    }
+
+    .galeria-container .imagen2{
+        width: 300px;
+        height: 350px;
+    }
+
+    .galeria-container .imagen3{
+        width: 300px;
+        height: 350px;
+    }
+
+    .galeria-container .imagen4{
+        width: 500px ;
+        height: 350px;
+    }
+
+    .galeria-container .imagen5{
+        width: 300px;
+        height: 350px;
+    }
+
+    .galeria-container .imagen6{
+        width: 300px;
+        height: 350px;
+    }
+
+    .galeria-container .imagen7{
+        width: 500px;
+        height: 350px;
+    }
+
+}
+
+@media screen and (max-width: 1000px){
+    .videos-container iframe{
+        width: 400px;
+        height: 300px;
+    }
+}
+@media screen and (max-width: 965px){
+    .galeria-container{
+    grid-template-columns: repeat(2, 1fr);
+    }
+
+    .galeria-container img{
+        width: 350px;
+        height: 400px;
+    }
+
+    .galeria-container .imagen1{
+        width: 350px;
+        height: 400px;
+    }
+
+    .galeria-container .imagen2{
+        width: 350px;
+        height: 400px;
+    }
+
+    .galeria-container .imagen3{
+        width: 350px;
+        height: 400px;
+        grid-column: 1/2;
+    }
+
+    .galeria-container .imagen4{
+        width: 350px;
+        height: 400px;
+        grid-column: 2/3;
+    }
+
+    .galeria-container .imagen5{
+        width: 350px;
+        height: 400px;
+        grid-column: 1/2;
+    }
+
+    .galeria-container .imagen6{
+        width: 350px;
+        height: 400px;
+    }
+    .galeria-container .imagen7{
+        width: 600px;
+        height: 400px;
+        grid-column: 1/3;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .biografia p {
+        font-size: 25px;
+    }
+
+    .biografia img {
+        height: 600px;
+        width: 500px;
+    
+    }
+    
+    .video iframe{
+        width: 600px;
+        height: 400px;
+    }
+
+    .videos-container {
+        gap: 10px;
+    }
+    .videos-container iframe{
+        width: 350px;
+        height: 300px;
+    }
+    
+}
+
+@media screen and (max-width: 800px){
+    .videos-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .videos-container iframe{
+        width: 500px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    header {
+        flex-direction: column;
+    }
+    
+
+    .biografia {
+        flex-direction: column-reverse;
+    }
+
+    .biografia img {
+        height: 450px;
+        width: 400px;
+    
+    }
+
+    .biografia p{
+        padding: 20px 10px ;
+        font-size: 20px;
+    }
+
+    .galeria-container .imagen1{
+        width: 300px;
+        height: 350px;
+    }
+
+    .galeria-container .imagen2{
+        width: 300px;
+        height: 350px;
+    }
+
+    .galeria-container .imagen3{
+        width: 300px;
+        height: 350px;
+        grid-column: 1/2;
+    }
+
+    .galeria-container .imagen4{
+        width: 300px;
+        height: 350px;
+        grid-column: 2/3;
+    }
+
+    .galeria-container .imagen5{
+        width: 300px;
+        height: 350px;
+        grid-column: 1/2;
+    }
+
+    .galeria-container .imagen6{
+        width: 300px;
+        height: 350px;
+    }
+    .galeria-container .imagen7{
+        width: 500px;
+        height: 350px;
+        grid-column: 1/3;
+
+}
+}
+
+@media screen and (max-width:655px){
+    .galeria-container{
+        grid-template-columns:550px ;
+        padding-left: 30px;
+    }
+
+    .galeria-container .imagen1{
+        width: 280px;
+        height: 300px
+        
+    }
+
+    .galeria-container .imagen2{
+        width: 280px;
+        height: 300px
+    }
+
+    .galeria-container .imagen3{
+        width: 280px;
+        height: 300px
+    }
+
+    .galeria-container .imagen4{
+    grid-column: 1/2;
+    width: 450px;
+    height: 300px
+    }
+
+    .galeria-container .imagen5{
+        width: 280px;
+        height: 300px
+    }
+
+    .galeria-container .imagen6{
+        width: 280px;
+        height: 300px
+    }
+
+    .galeria-container .imagen7{
+    grid-column: 1/2;
+    width: 450px;
+    height: 300px
+    }
+
+}
+
+@media screen and (max-width: 600px){
+
+    .galeria-container{
+        grid-template-columns: 450px;
+        padding-left: 60px;
+    }
+
+    .galeria-container .imagen4{
+        width:400px ;
+        height: 250px;
+    }
+
+    .galeria-container .imagen7{
+        width: 400px;
+        height: 250px;
+    }
+    .video iframe{
+        width: 550px;
+        height: 350px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .hero {
+        background-position: 60%;
+    }
+
+
+
+}
+
+@media screen and (max-width: 576px) {
+
+    header nav ul li {
+        margin: 5px 8px 5px 8px;
+    
+    }
+}
+
+@media screen and (max-width: 550px){
+
+    .galeria-container{
+        padding-left: 30px;
+    }
+    .video iframe{
+        width: 500px;
+        height: 350px;
+    }
+
+    .videos-container iframe{
+        width: 400px;
+        height: 250px;
+    }
+
+    .contacto{
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    .galeria-container{
+        padding-left: 20px;
+    }
+
+    .galeria-container .imagen4{
+        width: 350px;
+        height: 250px;
+    }
+
+    .galeria-container .imagen7{
+        width: 350px;
+        height: 250px;
+    }
+    .video iframe{
+        width: 450px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 450px){
+
+    .galeria-container{
+        padding-left: 0px ;
+        grid-template-columns: 400px;
+    
+    }
+
+    .galeria-container .imagen1{
+        height: 250px;
+    }
+
+    .galeria-container .imagen2{
+        height: 250px;
+    }
+
+    .galeria-container .imagen3{
+        height: 250px;
+    }
+
+    .galeria-container .imagen5{
+        height: 250px;
+    }
+
+    .galeria-container .imagen6{
+        height: 250px;
+    }
+    .video iframe{
+        width: 400px;
+        height: 300px;
+    }
+
+    .videos-container iframe{
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 440px){
+    .galeria-container .imagen4{
+        width: 300px;
+    }
+
+    .galeria-container .imagen7{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 400px) {
+
+    .galeria-container{
+        grid-template-columns: 350px;
+        padding-left: 20px;
+        padding-right: 0px;
+        
+    }
+    .biografia img {
+        height: 400px;
+        width: 350px;
+    
+    }
+
+    .biografia p {
+        font-size: 18px;
+    }
+
+    .video iframe{
+        width: 350px;
+        height: 250px;
+    }
+
+}
+
+@media screen and (max-width: 370px){
+    .galeria-container{
+        padding-left: 5px;
+
+    }
+
+
+}
+@media screen and (max-width: 350px) {
+    header div {
+        font-size: 10px;
+    }
+
+    header nav ul li a {
+        font-size: 15px;
+        margin: 0px;
+        
+    }
+
+    .hero div .hero-titulo{
+        font-size: 20px;
+        margin-right: 20px;
+    }
+    
+    .hero div .hero-subtitulo {
+        font-size: 20px;
+        margin-right: 20px;
+    }
+
+    .video iframe{
+        width: 340px;
+        height: 250px;
+    }
+
+    .biografia img {
+        height: 350px;
+        width: 300px;
+
+        }
+
+    .biografia p{
+        padding: 20px 10px ;
+        font-size: 15px;
+        }
+
+
+    .contacto div div .form-label{
+        font-size: 18px;
+
+    }
+
+    .contacto div .contact-information div input{
+        height: 25px;
+    }
+
+    .contacto div .message div .form-control {
+        height: 140px;
+    }
+    
+    .contacto div .button{
+        font-size: 15px;
+    }
+
+    footer div img {
+        width: 15px;
+        height: 15px;
+        margin: 20px 10px 10px 10px;
+}
+    
+    footer p{
+        font-size: 12px;
+    }
+}

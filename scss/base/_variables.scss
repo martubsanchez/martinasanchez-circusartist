@@ -1,0 +1,10 @@
+$color-principal:#1a1a1ae1;
+$color-secundario:#202020e1;
+$color-terciario:#363636;
+$color-footer:#a39f9fe1;
+
+@mixin flex ($flex , $justify , $align){
+display: $flex;
+justify-content: $justify;
+align-items: $align;
+}

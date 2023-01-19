@@ -1,0 +1,498 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&family=EB+Garamond:wght@400;500&family=Slabo+27px&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*------HEADER-----*/
+header {
+  background-color: #1a1a1ae1;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  header div {
+    font-family: 'Slabo 27px', serif;
+    font-size: 15px;
+    font-weight: normal;
+    color: white;
+    text-align: center; }
+  header nav ul {
+    list-style: none;
+    display: flex; }
+    header nav ul li {
+      margin: 10px 15px 10px 15px; }
+      header nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 15px; }
+        header nav ul li a:hover {
+          background-color: #a39f9fe1;
+          color: white;
+          text-decoration: none; }
+
+/*----HERO----*/
+.hero {
+  background-image: url(../img/petitvolant1.JPG);
+  width: 100%;
+  height: 80vh;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  flex-direction: column; }
+  .hero div .hero-titulo {
+    display: flex;
+    margin-right: 40px; }
+  .hero div .hero-subtitulo {
+    margin-right: 70px;
+    margin-bottom: 50px;
+    display: flex; }
+
+.video {
+  background-color: #202020e1;
+  border: #202020e1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .video iframe {
+    padding: 50px;
+    width: 1000px;
+    height: 500px; }
+
+/*---ABOUT---*/
+.biografia {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fcfcfce1;
+  color: #363636;
+  font-family: 'Slabo 27px', serif;
+  font-size: 30px; }
+  .biografia img {
+    height: 800px;
+    width: 700; }
+
+/*--PHOTOS--*/
+.galeria-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  background-color: #202020e1;
+  gap: 20px;
+  padding: 20px;
+  justify-items: center;
+  align-items: center; }
+  .galeria-container img {
+    transition: 1.5s; }
+    .galeria-container img:hover {
+      transform: scale(1.1);
+      box-shadow: 10px 10px 13px 7px rgba(33, 33, 33, 0.66);
+      -webkit-box-shadow: 10px 10px 13px 7px rgba(33, 33, 33, 0.66);
+      -moz-box-shadow: 10px 10px 13px 7px rgba(33, 33, 33, 0.66); }
+  .galeria-container .imagen1 {
+    width: 380px;
+    height: 450px; }
+  .galeria-container .imagen2 {
+    width: 380px;
+    height: 450px; }
+  .galeria-container .imagen3 {
+    width: 380px;
+    height: 450px; }
+  .galeria-container .imagen4 {
+    width: 700px;
+    height: 450px;
+    grid-column: 1/3; }
+  .galeria-container .imagen5 {
+    width: 380px;
+    height: 450px; }
+  .galeria-container .imagen6 {
+    width: 380px;
+    height: 450px; }
+  .galeria-container .imagen7 {
+    width: 800px;
+    height: 380px;
+    grid-column: 2/4; }
+
+/*--VIDEOS--*/
+.videos-container {
+  background-color: #202020e1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 600px, 600px;
+  gap: 15px;
+  justify-items: center; }
+  .videos-container iframe {
+    width: 600px;
+    height: 400px;
+    border: 2px solid #e7e7e7;
+    margin: 20px;
+    animation-name: border;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite; }
+
+@keyframes border {
+  0% {
+    border-color: #e7e7e7; }
+  25% {
+    border-color: #a8a8a8; }
+  50% {
+    border-color: #6e6e6e; }
+  75% {
+    border-color: #adacac; }
+  100% {
+    border-color: #a8a8a8; } }
+
+/*--CONTACTO--*/
+.contacto {
+  background-color: #444242e1;
+  color: white;
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  padding: 20px;
+  height: 72vh; }
+  .contacto div .message div .form-control {
+    height: 140px; }
+  .contacto div .button {
+    padding-top: 20px; }
+
+footer {
+  text-align: center; }
+  footer div {
+    display: flex;
+    justify-content: center;
+    background-color: #a39f9fe1; }
+    footer div img {
+      width: 30px;
+      height: 30px;
+      margin: 20px 10px 10px 10px;
+      transition-duration: 1.5s;
+      transition-timing-function: ease-in; }
+      footer div img:hover {
+        transform: scale(1.5); }
+  footer p {
+    font-family: 'Slabo 27px', serif;
+    font-size: 18px;
+    font-style: normal;
+    color: black;
+    background-color: #a39f9fe1;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    margin: 0;
+    padding-bottom: 0; }
+    footer p:hover {
+      color: white;
+      background-color: #1a1a1ae1; }
+
+/*---MEDIA QUERY---*/
+@media screen and (max-width: 1075px) {
+  .contacto div .message div .form-control {
+    height: 100px; }
+  .galeria-container .imagen1 {
+    width: 320px;
+    height: 400px; }
+  .galeria-container .imagen2 {
+    width: 320px;
+    height: 400px; }
+  .galeria-container .imagen3 {
+    width: 320px;
+    height: 400px; }
+  .galeria-container .imagen4 {
+    width: 600px;
+    height: 400px; }
+  .galeria-container .imagen5 {
+    width: 320px;
+    height: 400px; }
+  .galeria-container .imagen6 {
+    width: 320px;
+    height: 400px; }
+  .galeria-container .imagen7 {
+    width: 600px;
+    height: 400px; }
+  .videos-container iframe {
+    width: 450px;
+    height: 350px; } }
+
+@media screen and (max-width: 1025px) {
+  .galeria-container .imagen1 {
+    width: 300px;
+    height: 350px; }
+  .galeria-container .imagen2 {
+    width: 300px;
+    height: 350px; }
+  .galeria-container .imagen3 {
+    width: 300px;
+    height: 350px; }
+  .galeria-container .imagen4 {
+    width: 500px;
+    height: 350px; }
+  .galeria-container .imagen5 {
+    width: 300px;
+    height: 350px; }
+  .galeria-container .imagen6 {
+    width: 300px;
+    height: 350px; }
+  .galeria-container .imagen7 {
+    width: 500px;
+    height: 350px; } }
+
+@media screen and (max-width: 1000px) {
+  .videos-container iframe {
+    width: 400px;
+    height: 300px; } }
+
+@media screen and (max-width: 965px) {
+  .galeria-container {
+    grid-template-columns: repeat(2, 1fr); }
+  .galeria-container img {
+    width: 350px;
+    height: 400px; }
+  .galeria-container .imagen1 {
+    width: 350px;
+    height: 400px; }
+  .galeria-container .imagen2 {
+    width: 350px;
+    height: 400px; }
+  .galeria-container .imagen3 {
+    width: 350px;
+    height: 400px;
+    grid-column: 1/2; }
+  .galeria-container .imagen4 {
+    width: 350px;
+    height: 400px;
+    grid-column: 2/3; }
+  .galeria-container .imagen5 {
+    width: 350px;
+    height: 400px;
+    grid-column: 1/2; }
+  .galeria-container .imagen6 {
+    width: 350px;
+    height: 400px; }
+  .galeria-container .imagen7 {
+    width: 600px;
+    height: 400px;
+    grid-column: 1/3; } }
+
+@media screen and (max-width: 900px) {
+  .biografia p {
+    font-size: 25px; }
+  .biografia img {
+    height: 600px;
+    width: 500px; }
+  .video iframe {
+    width: 600px;
+    height: 400px; }
+  .videos-container {
+    gap: 10px; }
+  .videos-container iframe {
+    width: 350px;
+    height: 300px; } }
+
+@media screen and (max-width: 800px) {
+  .videos-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto; }
+  .videos-container iframe {
+    width: 500px;
+    height: 300px; } }
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column; }
+  .biografia {
+    flex-direction: column-reverse; }
+  .biografia img {
+    height: 450px;
+    width: 400px; }
+  .biografia p {
+    padding: 20px 10px;
+    font-size: 20px; }
+  .galeria-container .imagen1 {
+    width: 300px;
+    height: 350px; }
+  .galeria-container .imagen2 {
+    width: 300px;
+    height: 350px; }
+  .galeria-container .imagen3 {
+    width: 300px;
+    height: 350px;
+    grid-column: 1/2; }
+  .galeria-container .imagen4 {
+    width: 300px;
+    height: 350px;
+    grid-column: 2/3; }
+  .galeria-container .imagen5 {
+    width: 300px;
+    height: 350px;
+    grid-column: 1/2; }
+  .galeria-container .imagen6 {
+    width: 300px;
+    height: 350px; }
+  .galeria-container .imagen7 {
+    width: 500px;
+    height: 350px;
+    grid-column: 1/3; } }
+
+@media screen and (max-width: 655px) {
+  .galeria-container {
+    grid-template-columns: 550px;
+    padding-left: 30px; }
+  .galeria-container .imagen1 {
+    width: 280px;
+    height: 300px; }
+  .galeria-container .imagen2 {
+    width: 280px;
+    height: 300px; }
+  .galeria-container .imagen3 {
+    width: 280px;
+    height: 300px; }
+  .galeria-container .imagen4 {
+    grid-column: 1/2;
+    width: 450px;
+    height: 300px; }
+  .galeria-container .imagen5 {
+    width: 280px;
+    height: 300px; }
+  .galeria-container .imagen6 {
+    width: 280px;
+    height: 300px; }
+  .galeria-container .imagen7 {
+    grid-column: 1/2;
+    width: 450px;
+    height: 300px; } }
+
+@media screen and (max-width: 600px) {
+  .galeria-container {
+    grid-template-columns: 450px;
+    padding-left: 60px; }
+  .galeria-container .imagen4 {
+    width: 400px;
+    height: 250px; }
+  .galeria-container .imagen7 {
+    width: 400px;
+    height: 250px; }
+  .video iframe {
+    width: 550px;
+    height: 350px; } }
+
+@media screen and (max-width: 576px) {
+  .hero {
+    background-position: 60%; } }
+
+@media screen and (max-width: 576px) {
+  header nav ul li {
+    margin: 5px 8px 5px 8px; } }
+
+@media screen and (max-width: 550px) {
+  .galeria-container {
+    padding-left: 30px; }
+  .video iframe {
+    width: 500px;
+    height: 350px; }
+  .videos-container iframe {
+    width: 400px;
+    height: 250px; }
+  .contacto {
+    height: auto; } }
+
+@media screen and (max-width: 500px) {
+  .galeria-container {
+    padding-left: 20px; }
+  .galeria-container .imagen4 {
+    width: 350px;
+    height: 250px; }
+  .galeria-container .imagen7 {
+    width: 350px;
+    height: 250px; }
+  .video iframe {
+    width: 450px;
+    height: 300px; } }
+
+@media screen and (max-width: 450px) {
+  .galeria-container {
+    padding-left: 0px;
+    grid-template-columns: 400px; }
+  .galeria-container .imagen1 {
+    height: 250px; }
+  .galeria-container .imagen2 {
+    height: 250px; }
+  .galeria-container .imagen3 {
+    height: 250px; }
+  .galeria-container .imagen5 {
+    height: 250px; }
+  .galeria-container .imagen6 {
+    height: 250px; }
+  .video iframe {
+    width: 400px;
+    height: 300px; }
+  .videos-container iframe {
+    width: 300px;
+    height: 200px; } }
+
+@media screen and (max-width: 440px) {
+  .galeria-container .imagen4 {
+    width: 300px; }
+  .galeria-container .imagen7 {
+    width: 300px; } }
+
+@media screen and (max-width: 400px) {
+  .galeria-container {
+    grid-template-columns: 350px;
+    padding-left: 20px;
+    padding-right: 0px; }
+  .biografia img {
+    height: 400px;
+    width: 350px; }
+  .biografia p {
+    font-size: 18px; }
+  .video iframe {
+    width: 350px;
+    height: 250px; } }
+
+@media screen and (max-width: 370px) {
+  .galeria-container {
+    padding-left: 5px; } }
+
+@media screen and (max-width: 350px) {
+  header div {
+    font-size: 10px; }
+  header nav ul li a {
+    font-size: 15px;
+    margin: 0px; }
+  .hero div .hero-titulo {
+    font-size: 20px;
+    margin-right: 20px; }
+  .hero div .hero-subtitulo {
+    font-size: 20px;
+    margin-right: 20px; }
+  .video iframe {
+    width: 340px;
+    height: 250px; }
+  .biografia img {
+    height: 350px;
+    width: 300px; }
+  .biografia p {
+    padding: 20px 10px;
+    font-size: 15px; }
+  .contacto div div .form-label {
+    font-size: 18px; }
+  .contacto div .contact-information div input {
+    height: 25px; }
+  .contacto div .message div .form-control {
+    height: 140px; }
+  .contacto div .button {
+    font-size: 15px; }
+  footer div img {
+    width: 15px;
+    height: 15px;
+    margin: 20px 10px 10px 10px; }
+  footer p {
+    font-size: 12px; } }

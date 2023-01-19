@@ -1,0 +1,39 @@
+/*------HEADER-----*/
+
+header {
+    background-color: $color-principal;
+    position: sticky;
+    top: 0;
+    @include flex (flex, space-between,center);
+    div{
+        font-family: 'Slabo 27px', serif;
+        font-size: 15px;
+        font-weight: normal;
+        color:white;
+        text-align: center;
+
+    }
+
+
+    nav{
+
+        ul{
+            list-style: none;
+            display: flex;
+
+            li{
+                margin: 10px 15px 10px 15px;
+                a{
+                    text-decoration: none;
+                    color: white;
+                    font-size: 15px;
+                    &:hover{
+                        background-color: $color-footer;
+                        color: white;;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
