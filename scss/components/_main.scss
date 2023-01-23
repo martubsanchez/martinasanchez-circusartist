@@ -81,16 +81,13 @@
     }
 
     .imagen1{
-        width: 380px;
-        height: 450px;
+        @extend %imagen-galeria;
     }
     .imagen2{
-        width: 380px;
-        height: 450px;
+        @extend %imagen-galeria;
     }
     .imagen3{
-        width: 380px;
-        height: 450px;
+        @extend %imagen-galeria;
     }
     .imagen4{
         width: 700px;
@@ -100,12 +97,10 @@
 
     }
     .imagen5{
-        width: 380px;
-        height: 450px;
+        @extend %imagen-galeria;
     }
     .imagen6{
-        width: 380px;
-        height: 450px;
+        @extend %imagen-galeria;
     }
     .imagen7{
         width: 800px;

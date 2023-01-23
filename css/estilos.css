@@ -4,6 +4,10 @@
   padding: 0;
   box-sizing: border-box; }
 
+.galeria-container .imagen1, .galeria-container .imagen2, .galeria-container .imagen3, .galeria-container .imagen5, .galeria-container .imagen6 {
+  width: 380px;
+  height: 450px; }
+
 /*------HEADER-----*/
 header {
   background-color: #1a1a1ae1;
@@ -96,25 +100,10 @@ header {
       box-shadow: 10px 10px 13px 7px rgba(33, 33, 33, 0.66);
       -webkit-box-shadow: 10px 10px 13px 7px rgba(33, 33, 33, 0.66);
       -moz-box-shadow: 10px 10px 13px 7px rgba(33, 33, 33, 0.66); }
-  .galeria-container .imagen1 {
-    width: 380px;
-    height: 450px; }
-  .galeria-container .imagen2 {
-    width: 380px;
-    height: 450px; }
-  .galeria-container .imagen3 {
-    width: 380px;
-    height: 450px; }
   .galeria-container .imagen4 {
     width: 700px;
     height: 450px;
     grid-column: 1/3; }
-  .galeria-container .imagen5 {
-    width: 380px;
-    height: 450px; }
-  .galeria-container .imagen6 {
-    width: 380px;
-    height: 450px; }
   .galeria-container .imagen7 {
     width: 800px;
     height: 380px;
