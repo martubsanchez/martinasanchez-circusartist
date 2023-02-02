@@ -3,6 +3,7 @@
 header {
     background-color: $color-principal;
     position: sticky;
+    z-index: 1;
     top: 0;
     @include flex (flex, space-between,center);
     div{
